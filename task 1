@@ -1,0 +1,14 @@
+// ConsoleApplication1.cpp: определяет точку входа для консольного приложения.
+//
+// модуль 1.1, задание 1
+#include "stdafx.h"
+#include <cstdio> // либа-костыль для getchar() от закрытия окна консоли сразу
+
+int main()
+{
+	printf("	\"To be or not to be\""); // пробельчики, вроде, как в задании. 
+	printf("\n	        \\Shakespeare\\");
+	std::getchar(); // чтоб не закрывалось окно сразу
+    return 0;
+}
+
